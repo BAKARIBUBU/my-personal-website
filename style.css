@@ -1,3 +1,65 @@
-body {
-    background: blue;
+/* Style the navigation menu */
+nav {
+
+    position: fixed; /* fix the navigation menu to the left side */
+    top: 0; /* top of the page */
+    left: 0; /* left side of the page */
+    height: 100vh; /* make the navigation menu full height */
+    background-color: black; /* light gray background */
+    width: 250px; /* set the width of the navigation menu */
+    display: flex; /* use flexbox to center the content */
+    flex-direction: column; /* stack the links vertically */
+    justify-content: center; /* center the links vertically */
+    align-items: center; /* center the links horizontally */
+  }
+
+
+  nav ul {
+    list-style: none; /* remove bullet points */
+    margin: 0; /* remove margin */
+    padding: 0; /* remove padding */
+  }
+
+  nav li {
+    margin-bottom: 30px; /* add some space between list items */
+  }
+
+  nav a {
+    text-decoration: none; /* remove underline */
+    color: white;
+  }
+
+  nav a:hover {
+    color: orange; /* dark gray text color on hover */
+  }
+
+#name{
+    text-align: left;
+    font-size: 50px;
+}
+#email{
+    text-align: left;
+}
+#intro{
+    text-align: left;
+}
+#about {
+    margin-left: 250px;
+    padding: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#skills {
+    margin-left: 250px;
+    padding: 20px;
+}
+#interest {
+  margin: 0 auto;
+    margin-left: 250px;
+    margin-right: 100spx;
+    padding: 20px;
+
+}
+#rhoka {
+    color: #FF9900;
   }
